@@ -1,0 +1,29 @@
+{
+  "name": "dsh-whale-catcher",
+  "version": "1.0.1",
+  "description": "DSH Web 界面里的《小鲸鱼抓token》小游戏：左下角一枚按钮，点开就是一局捞 token —— 抓到的 token 会加成你身上的数字，撞上比你大的鱼会掉一颗心，白饭回血，鲸元券让你下一钩无视大小。（非官方粉丝作品，与 DeepSeek 官方无关联）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "game",
+    "whale",
+    "token"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "author": "kanoonak"
+}
