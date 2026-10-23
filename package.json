@@ -1,7 +1,15 @@
 {
   "name": "dsh-whale-catcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DSH Web 界面里的《小鲸鱼抓token》小游戏：左下角一枚按钮，点开就是一局捞 token —— 抓到的 token 会加成你身上的数字，撞上比你大的鱼会掉一颗心，白饭回血，鲸元券让你下一钩无视大小。（非官方粉丝作品，与 DeepSeek 官方无关联）",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanoonak/dsh-whale-catcher.git"
+  },
+  "homepage": "https://github.com/kanoonak/dsh-whale-catcher#readme",
+  "bugs": {
+    "url": "https://github.com/kanoonak/dsh-whale-catcher/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
